@@ -1,0 +1,400 @@
+/*
+Theme Name: SA
+Theme URI: SA
+Description: For SA
+Version: 1.0
+Author: James Mcilveen and Thomas Miller
+Author URI: http://www.jamesmcilveen.com/ and http://profile-thomasmiller.apps.cloudbaseshef.uk/
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%
+}
+
+body {
+	background: #fff;
+	font-family: 'Helvetica Neue', HelveticaNeue-Light, 'Helvetica Neue Light', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+}
+
+a {
+	color: inherit;
+}
+
+#center_wrapper {
+	background: rgb(6, 39, 71);
+	width: 1024px;
+	margin: 0 auto;
+	min-height: 100%;
+	padding-bottom: 40px;
+}
+
+header {
+	height: 346px;
+	margin-bottom: 40px;
+}
+
+header div.shape_left {
+	background: url(http://localhost/wordpress/wp-content/themes/sagymnastics/images/header_left.png) no-repeat center center;
+}
+
+header div.shape_right {
+	background: url(http://localhost/wordpress/wp-content/themes/sagymnastics/images/header_right.png) no-repeat center center;
+}
+
+header div.shape {
+	width: 141px;
+	height: 152px;
+	margin: 72px 100px 72px 100px;
+	float: left;
+}
+
+a.logo {
+	width: 342px;
+	height: 177px;
+	margin: 72px 0 0 0;
+	float: left;
+	border: 0;
+}
+
+a.logo img {
+	margin: 0 85px;
+}
+
+nav {
+	height: 50px;
+	width: 1024px;
+	background: white;
+	clear: both;
+}
+
+nav .table {
+	display: table;
+	margin: 0 auto;
+}
+
+nav ul {
+	min-width: 696px;
+	list-style: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul a {
+	line-height: 50px;
+	color: rgb(0, 31, 53);
+	font-size: 21px;
+	text-align: center;
+	padding: 0 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	-webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    font-weight: bold;
+}
+
+nav ul a:hover {
+	color: rgb(158, 29, 38);
+}
+
+footer {
+	font-size: 14px;
+	background: #00101C;
+	padding: 15px 30px;
+	color: #fff;
+	width: 964px;
+	margin: 0 auto;
+}
+
+#small_logo {
+	margin: 0 auto;
+	width: 420px;
+	margin-top: 40px;
+	height: 65px;
+	background: url(http://localhost/wordpress/wp-content/themes/sagymnastics/images/small_logo.png) no-repeat center center;
+}
+
+#moreinfo {
+	margin: 0 auto;
+	width: 420px;
+	margin-top: 15px;
+	text-align: center;
+	background: #9f1d26;
+	padding: 7px;
+	color: #fff;
+}
+
+#inner_content {
+	padding-top: 10px;
+	margin: 0px 85px;
+	position: relative;
+	color: #fff;
+}
+
+#inner_content a:visited, #inner_content a {
+	color: #338EFF;
+	-webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    text-decoration: none;
+}
+
+#inner_content a:hover {
+	color: #9f1d26;
+}
+
+h1 {
+	font-size: 38px;
+	margin-bottom: 40px;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+p {
+	margin-bottom: 0.5em;
+}
+
+#social {
+	position: absolute;
+	top: 0;
+	right: 0;
+
+}
+
+.right_padding {
+	margin-right: 20px;
+	float: left;
+}
+
+.left_padding {
+	margin-left: 10px;
+}
+
+
+.row {
+	clear: both;
+	width: 100%;
+}
+
+.row .widget_box {
+	background: #FFF;
+	color: #001F35;
+	border: 4px dotted #001F35;
+	outline: 5px solid #FFF;
+	width: 42%;
+	float:left;
+}
+
+.row .widget_box:first-child {
+	margin-right: 4%;
+}
+
+.row .widget_box img {
+	border: 15px solid #FFF;
+	box-shadow: 5px 5px 15px 3px #ccc;
+	margin: 0 auto;
+}
+
+.double-padded {
+	padding: 15px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.class_links {
+	float: left;
+	display: block;
+	margin-bottom: 20px;
+}
+
+.class_links img {
+	-webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.class_links:hover img {
+	opacity: 0.8;
+}
+
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"] {
+	padding: 3px;
+}
+
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea {
+	color: #666;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+innput[type="button"], input[type="reset"], input[type="submit"] {
+	border: 1px solid;
+	border-color: #701416;
+	border-radius: 3px;
+	background: #b11f23;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
+	color: #FFF;
+	cursor: pointer;
+	-webkit-appearance: button;
+	font-size: 12px;
+	font-size: 1.2rem;
+	line-height: 1;
+	padding: .6em 1em .4em;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
+	border-color: #701416;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
+}
+
+select {
+	background: #FFF;
+	color: #001F35;
+	padding: 5px;
+}
+
+button, input, select, textarea {
+	font-size: 100%;
+	margin: 0;
+	vertical-align: baseline;
+	max-width: 100%;
+}
+
+.row .widget_box_transparent {
+	color: #fff;
+	width: 45%;
+	float: left;
+}
+
+.row .widget_box_transparent p {
+	margin-bottom: 10px;
+}
+
+.classimage {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -210px;
+	margin-top: -80px;
+}
+
+.recreational {
+	padding-top: 140px;
+	position: relative;
+	background: #b7d0ec;
+	color: #001F35;
+	border: 3px dotted #001F35;
+	outline: 5px solid #b3cbe0;
+	margin-top: 135px;
+}
+
+.cubstigerslions {
+	padding-top: 200px;
+	position: relative;
+	background: #fbd795;
+	color: #221e20;
+	border: 3px dotted #aa5b00;
+	outline: 5px solid #ffda90;
+	margin: 150px 0 45px 0;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+#inner_content span {
+	margin-right: 7%;
+	display: inline-block;
+	font-size: 1.2em;
+	margin-bottom: 25px;
+	font-weight: bold;
+}
+
+#inner_content span:nth-child(odd) {
+	color: #ed8d02;
+}
+
+.cubstigerslions table {
+	border: 1px solid #ed8d02;
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+.cubstigerslions table thead {
+	background: #ed8d02;
+	color: #FFF;
+}
+
+.cubstigerslions table thead td {
+	border-right: 1px solid #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 4px;
+}
+
+.cubstigerslions table tbody {
+	color: #ed8d02;
+	background: #FFF;
+}
+
+.cubstigerslions table tbody td {
+	height: 55px;
+	border-right: 1px solid #ed8d02;
+	color: #221e20;
+}
+
+
+.recreational table {
+	border: 1px solid #001F35;
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+.recreational table thead {
+	background: #001F35;
+color: #FFF;
+}
+
+.recreational table thead td {
+	border-right: 1px solid #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 4px;
+}
+
+.recreational table tbody {
+	color: #001F35;
+	background: #FFF;
+}
+
+.recreational table tbody td {
+	height: 55px;
+	border-right: 1px solid #001F35;
+}
+
+.development {
+	background: #FFF;
+	color: #001F35;
+	border: 3px dotted #001F35;
+	outline: 5px solid #FFF;
+	margin-bottom: 45px;
+	margin-top: 90px;
+}
+
+
