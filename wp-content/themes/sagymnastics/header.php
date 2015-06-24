@@ -13,7 +13,7 @@
 			<header>
 				<div class="shape shape_left"></div>
 				<a class="logo" href="http://www.sagymnastics.co.uk/" rel="home">
-					<img src="http://localhost/wordpress/wp-content/themes/sagymnastics/images/header_logo.png" alt="SA Gymnastics">
+					<img src="http://sagymnastics.co.uk/images/header_logo.png" alt="SA Gymnastics">
 
 				</a>
 				<div class="shape shape_right"></div>
@@ -44,8 +44,8 @@
 	<strong>Follow us:</strong><br><br>
 	
 	<ul>
-	<a href="https://www.facebook.com/pages/SA-Gymnastics/786535728041807"><img src="http://localhost/wordpress/wp-content/themes/sagymnastics/images/facebook.png" alt="Like us on facebook"></a>
-	<a class="left_padding" href="https://twitter.com/sagymnastics123"><img src="http://localhost/wordpress/wp-content/themes/sagymnastics/images/twitter.png" alt="Follow us on twitter"></a>
+	<a href="https://www.facebook.com/pages/SA-Gymnastics/786535728041807"><img src="http://sagymnastics.co.uk/images/facebook.png" alt="Like us on facebook"></a>
+	<a class="left_padding" href="https://twitter.com/sagymnastics123"><img src="http://sagymnastics.co.uk/images/twitter.png" alt="Follow us on twitter"></a>
 	</ul>
 </div>
 
